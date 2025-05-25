@@ -11,7 +11,7 @@ jobs:
         run: echo "Hello, world!"
       - name: Commit and push changes
         run: | # shell
-          git config --local user.name "athianna"
+          git config --global user.name "athianna"
           git commit -m "successfully done" || exit 0
           git push
       
